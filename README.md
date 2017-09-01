@@ -16,10 +16,10 @@ If I used a greater size I cloud have a better final score, but my environment d
 So each fold I ran predictions on the test set and then took the average of 8 folds.
 
 **Data Augmentation:** Data augmentation is very important to avoid overfitting. 
-I used some random augmentations like horizontal/vertical flips and rotations and I tried other augmentations like shift, zoom and shearing.
+I used some random augmentations like horizontal/vertical flips and rotations and I tried other augmentations like shift and zoom.
 
 **Ensembling:** It is very important to average predictions to help the models generalize 
-and to avoid any bias because each trained model will potentially pick up on different information.CV.
+and to avoid any bias because each trained model will potentially pick up on different information.
 
 **FineTuning:** At the end I used finetuning with the same base model Inception-v3 pre-trained on Imagenet.
 
