@@ -36,12 +36,12 @@ and to avoid any bias because each trained model will potentially pick up on dif
 
 # Code
 
-Version 1: run_keras_simple.py - simple solution using Keras
+Version 1: cnn_v1.py - (LB ~0.95)
 
-Version 2: run_keras_cv.py - Added cross-validation (LB ~1.4)
+Version 2: cnn_v2.py - Added cross-validation (LB ~0.96)
 
-Version 3: run_keras_cv_drivers.py - Added cross-validation based on driver ID
+Version 3: cnn_v3.py - Added cross-validation based on driver ID (LB ~0.97600)
 
-Version 4: run_keras_cv_drivers_v2.py - Added random rotation of images, new CNN structure and some useful callbacks like "EarlyStopping" and "ModelCheckpoint". (LB: ~1.0 and lower)
+Version 4: cnn_v4.py - Added random rotation of images, new CNN structure and some useful callbacks like "EarlyStopping" and "ModelCheckpoint". (LB ~0.97889)
 
-Version 5: kaggle_distracted_drivers_vgg16.py - Using pretrained VGG16 CNN. Allows to get 0.206 on LB. Requirements: 16 GB of RAM with SWAP enabled, powerful NVIDIA GPU, Keras 0.2.0 (it's important). Weights: https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
+Version 5: cnn_v5.py - Using pretrained VGG16 CNN. Allows to get 0.206 on LB. Requirements: 16 GB of RAM with SWAP enabled, powerful NVIDIA GPU, Keras 0.2.0 (LB ~0.99046)
