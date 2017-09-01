@@ -34,3 +34,6 @@ and to avoid any bias because each trained model will potentially pick up on dif
 **Version 4:** cnn_v4.py - New CNN structure. (LB ~0.97889)
 
 **Version 5:** cnn_v5.py - Using pre-trained Inception-V3 CNN. Allows to get 0.99046 on LB. (LB ~0.99046)
+
+## References
+[Kaggle Invasive Species Monitoring](https://www.kaggle.com/c/invasive-species-monitoring)
