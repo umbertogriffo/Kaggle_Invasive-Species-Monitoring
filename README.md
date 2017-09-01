@@ -36,12 +36,12 @@ and to avoid any bias because each trained model will potentially pick up on dif
 
 # Code
 
-Version 1: cnn_v1.py - (LB ~0.95)
+Version 1: cnn_v1.py - Image size 128X128 - Naive Bagging (8 ANN) - Random rotation, shift and horizontal and vertical flip of images (LB ~0.95)
 
-Version 2: cnn_v2.py - Added cross-validation (LB ~0.96)
+Version 2: cnn_v2.py - Increased the Image size to 190X256 (LB ~0.96)
 
-Version 3: cnn_v3.py - Added cross-validation based on driver ID (LB ~0.97600)
+Version 3: cnn_v3.py - Increased the Image size to 256X356 - Increased the momentum in SGD (LB ~0.97600)
 
-Version 4: cnn_v4.py - Added random rotation of images, new CNN structure and some useful callbacks like "EarlyStopping" and "ModelCheckpoint". (LB ~0.97889)
+Version 4: cnn_v4.py - New CNN structure. (LB ~0.97889)
 
-Version 5: cnn_v5.py - Using pretrained VGG16 CNN. Allows to get 0.206 on LB. Requirements: 16 GB of RAM with SWAP enabled, powerful NVIDIA GPU, Keras 0.2.0 (LB ~0.99046)
+Version 5: cnn_v5.py - Using pre-trained Inception-V3 CNN. Allows to get 0.99046 on LB. (LB ~0.99046)
