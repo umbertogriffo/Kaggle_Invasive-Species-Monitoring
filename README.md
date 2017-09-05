@@ -6,7 +6,7 @@ My solutions that uses Keras (81st place LB 0.99046)
 	* 128 GB Ram
 	* 1 TB Disk
   
-## My approach to achive 0.99046
+## My approach to achieve 0.99046
 
 **Image Sizing:** The images in the dataset were size 1154px x 866px. 
 I used a small range of image sizes 128X128, 190X256 and 256X356. 
