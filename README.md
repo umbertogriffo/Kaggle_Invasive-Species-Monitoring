@@ -1,5 +1,5 @@
 # Kaggle-Invasive Species Monitoring
-My solutions that uses Keras (81st place LB 0.99046)
+My solutions that uses Keras (81st/513 place LB 0.99046)
 
 ## Environment
 	* 2 Intel Xeon E5-2630 v4 2.2GHz, 25M Cache, 8.0 GT/s QPI, Turbo, HT, 10C/20T (85W) Max Mem 2133MHz
