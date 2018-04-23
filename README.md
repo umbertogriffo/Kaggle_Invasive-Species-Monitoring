@@ -1,6 +1,10 @@
 # Kaggle-Invasive Species Monitoring
 My solutions that uses Keras (81st/513 place LB 0.99046)
 
+## Colab
+You can try the code directly on [Colab](https://drive.google.com/open?id=1k2IX7fx-sJ_OEuGXyYEpzQJY1CWe0nbm).
+Save a copy in your drive and enjoy It!
+
 ## Environment
 	* 2 Intel Xeon E5-2630 v4 2.2GHz, 25M Cache, 8.0 GT/s QPI, Turbo, HT, 10C/20T (85W) Max Mem 2133MHz
 	* 128 GB Ram
